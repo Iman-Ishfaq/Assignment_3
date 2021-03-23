@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".register">
+
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="80dp"
+        android:text="Register"
+        android:textSize="50dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/name"
+            android:text="Name"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/eamil"
+            android:text="Email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/num"
+            android:text="Number"
+            android:hint="Number"
+            android:inputType="phone"
+            />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/pass"
+            android:text="Passsword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="have an account?"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignIn"
+        android:id="@+id/btn1"
+        android:gravity="center"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="129dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:id="@+id/reg"
+        android:text="Register"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+
+        />
+
+</RelativeLayout>
